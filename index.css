@@ -1,0 +1,82 @@
+@font-face {
+    font-family: Roboto;
+    src: url('/fonts/Roboto-regular.woff2') format('woff2');
+}
+
+
+body {
+    background-color:  #C8CCD41A;
+    font-family: Roboto, sans-serif;
+    line-height: 1.5;
+}
+
+
+@media (min-width: 50em) {
+    body{
+         font-size: 150%;
+    }
+}
+    
+
+
+.navbar-container {
+    padding: 0;
+    margin: 0;
+    background-color: #FFFFFF;
+
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 50px;
+}
+
+.nav-container ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-container ul, li, a {
+    text-decoration: none;
+}
+
+#home
+ {
+    margin: 20px 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-style: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+ }
+
+ #About {
+ 
+    margin: 20px 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-style: none;
+    border-radius: 10px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+
+ }
+
+ #Projects
+ {
+    margin: 20px 20px;
+    padding: 20px;
+    border: 1px solid gray;
+    border-style: none;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    border-radius: 10px;
+
+ }
